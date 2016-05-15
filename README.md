@@ -1,5 +1,5 @@
 ### DataWrangling-Exercise-1
-##### read ‘refine_original.csv’ into R 
+##### #read ‘refine_original.csv’ into R 
 refine_original<-tbl_df(read.csv(file.choose(),header=T))
 
 ##### convert ‘company’ column to lower case
